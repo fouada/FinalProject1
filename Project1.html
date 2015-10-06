@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en"
+	xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta name="generator" content="HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org" >
+		<meta charset="utf-8" >
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+		<meta name="viewport" content="width=device-width, Initial-scale=1" >
+		<title>
+			My Project1
+		</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300'
+			rel='stylesheet'/>
+		<link rel="stylesheet"
+			href="css/bootstrap.css" />
+		<link rel="stylesheet"
+			href="css/style.css" />
+		<link rel="stylesheet" href="responsive.css">
+	</head>
+	<body>
+		<div class="container">
+			<header class="row">
+				<div class="col-md-6">
+					<img class="title-logo" src="images/logo.png" alt="udacity logo">
+					<a id="menu" class="header__menu">
+						<svg class="mainsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+							<path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+						</svg>
+					</a>
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1 class="title-super text-thin">Jane Doette</h1>
+					<h4>Front-end Ninja</h4>
+				</div>
+			</header>
+			<nav id="drawer" class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a class="text-decorated" href="#" data-toggle="modal" data-target="#CENTER">CENTER</a></li>
+					<li class="nav__item"><a class="text-decorated" href="#" data-toggle="modal" data-target="#APPIFY">APPIFY</a></li>
+					<li class="nav__item"><a class="text-decorated" href="#" data-toggle="modal" data-target="#SUNFLOWER">SUNFLOWER</a></li>
+					<li class="nav__item"><a class="text-decorated" href="#" data-toggle="modal" data-target="#BOKEH">BOKEH</a></li>
+				</ul>
+			</nav>
+			<section class="row">
+				<h5>&nbsp;</h5>
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</section>
+			<section class="row">
+				<h5>&nbsp;</h5>
+				<div class="col-md-12">
+					<a class="pointer"><img class="img-responsive image-center" src="images/center_Large.jpg"  srcset="images/center_Large.jpg 1024w, images/center_Medium.jpg 640w, images/center_Small.jpg 450w"
+						sizes="100vw" alt="Main center image" data-toggle="modal" data-target="#CENTER"></a>
+				</div>
+			</section>
+			<section class="row">
+				<h5>&nbsp;</h5>
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</section>
+			<section class="row text-center">
+				<div class="col-md-4">
+					<a class="pointer"><img class="image-layout img-responsive" src="images/APPIFY_Small.jpg" srcset="images/APPIFY_Medium.jpg 640w, images/APPIFY_Small.jpg 450w" sizes="100vw" alt="APPIFY" data-toggle="modal" data-target="#APPIFY"></a>
+					<h3 class="text-uppercase">Appify</h3>
+					<a class="pointer" href="#">https://github.com/udacity/appify</a>
+				</div>
+				<div class="col-md-4">
+					<a class="pointer"><img class="image-layout img-responsive" src="images/SUNFLOWER_Small.jpg" srcset="images/SUNFLOWER_Medium.jpg 640w, images/SUNFLOWER_Small.jpg 450w" sizes="100vw" alt="SUNFLOWER" data-toggle="modal" data-target="#SUNFLOWER"></a>
+					<h3 class="text-uppercase">Sunflower</h3>
+					<a class="pointer" href="#">https://github.com/udacity/sunflower</a>
+				</div>
+				<div class="col-md-4">
+					<a class="pointer"><img class="image-layout img-responsive" src="images/BOKEH_Small.jpg" srcset="images/BOKEH_Medium.jpg 640w, images/BOKEH_Small.jpg 450w" sizes="100vw" alt="BOKEH"
+						data-toggle="modal" data-target="#BOKEH"></a>
+					<h3 class="text-uppercase">Bokeh</h3>
+					<a class="pointer" href="#">https://github.com/udacity/bokeh</a>
+				</div>
+			</section>
+		</div>
+		<!-- Modal APPIFY -->
+		<div class="modal fade" id="APPIFY" tabindex="-1" role="dialog" aria-labelledby="myModalAPPIFYLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalAPPIFYLabel">APPIFY PICTURE</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/APPIFY_Small.jpg" srcset="images/APPIFY_Medium.jpg 640w, images/APPIFY_Small.jpg 450w" sizes="100vw" alt="APPIFY">
+						This was my first project in this class. I learned a lot about HTML and CSS.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal SUNFLOWER -->
+		<div class="modal fade" id="SUNFLOWER" tabindex="-1" role="dialog" aria-labelledby="myModalSUNFLOWERLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalSUNFLOWERLabel">SUNFLOWER PICTURE</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/SUNFLOWER_Small.jpg" srcset="images/SUNFLOWER_Medium.jpg 640w, images/SUNFLOWER_Small.jpg 450w" sizes="100vw" alt="SUNFLOWER">
+						<p>This was my first project in this class. I learned a lot about HTML and CSS.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal BOKEH -->
+		<div class="modal fade" id="BOKEH" tabindex="-1" role="dialog" aria-labelledby="myModalBOKEHLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalBOKEHLabel">BOKEH PICTURE</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/BOKEH_Small.jpg " srcset="images/BOKEH_Medium.jpg 640w, images/BOKEH_Small.jpg 450w" sizes="100vw" alt="BOKEH">
+						<p>This was my first project in this class. I learned a lot about HTML and CSS.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="CENTER" tabindex="-1" role="dialog" aria-labelledby="myModalCENTERLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title" id="myModalCENTERLabel">CENTER PICTURE</h4>
+					</div>
+					<div class="modal-body">
+						<img class="img-responsive" src="images/center_Small.jpg " srcset="images/center_Large.jpg 1024w, images/center_Medium.jpg 640w, images/center_Small.jpg 450w" sizes="100vw" alt="CENTER">
+						<p>This was my first project in this class. I learned a lot about HTML and CSS.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script
+			src="js/jquery-2.1.4.min.js"></script>
+		<script
+			src="js/bootstrap.min.js"></script>
+		<script>
+			/*
+			 * Open the drawer when the menu ison is clicked.
+			 */
+			var menu = document.querySelector('a#menu');
+			var main = document.querySelector('main');
+			var drawer = document.querySelector('.nav');
+			
+			menu.addEventListener('click', function(e) {
+				drawer.classList.toggle('open');
+				e.stopPropagation();
+			});
+			main.addEventListener('click', function() {
+				drawer.classList.remove('open');
+			});
+			
+		</script>
+	</body>
+</html>
